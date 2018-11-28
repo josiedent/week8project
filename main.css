@@ -1,0 +1,84 @@
+
+.sale {
+  padding-top: 90px;
+  min-height: 700px;
+  margin-bottom: 0;
+  background-image: url('images/sample-sale-1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sale h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 70px;
+  color: black;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+
+#Current-sales {
+  background-color: rgba(217, 217, 217, 0.9);
+  color: black;
+  padding-bottom: 40px;
+}
+
+.sale .form-group {
+  line-height: 4em;
+  text-align: center;
+}
+
+.sale label {
+  color: black;
+}
+.sale img {
+  margin-top: 50px;
+}
+h2 {
+  margin-bottom: 1.5em;
+}
+
+.navbar-inverse {
+  background-color: rgba(217, 217, 217, 0.9);
+}
+
+.form-group input[name='email'] {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row img {
+  width: 50%;
+  height: 220px;
+}
+
+.btn-current {
+  background-color: #ffb3d9;
+  border-color: #ffb3d9;
+  color: white;
+}
+
+#social-buttons {
+  margin-top: 80px;
+  padding-bottom: 40px;
+}
+
+
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
+}
