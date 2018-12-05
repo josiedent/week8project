@@ -12,37 +12,31 @@
 </head>
 
 <body>
-
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
-
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-  </div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
 
   <div class="collapse navbar-collapse">
-  <ul class="nav navbar-nav navbar-right">
-      <li><a href="#How-it-works">How it works</a></li>
-      <li><a href="#Current-sales">Current sales</a></li>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#weatherform">Pick your favourites</a></li>
     </ul>
-    </div>
-  </nav>
   </div>
+</nav>
+</div>
 
-
-
-
-  <div class='sale'>
+  <div class='email'>
     <div class='container'>
       <div class='row'>
         <div class='col-sm-12'>
 
-          <h1>Receive emails for updates on the latest sample sales in London</h1>
+          <h1>Where should I travel today?</h1>
 
         </div>
         </div>
@@ -58,57 +52,42 @@
     </div>
   </div>
 
-  <div id="How-it-works" class="text-center">
+  <div id="weatherform" class="text-center">
     <div class="container">
-        <h2><br />Interested?</h2>
-          <h3>Here’s How it Works:</h3>
-    </div>
+        <title2> Pick your favourites below: </title2>
+        <section id="header-container">
+          <div class="container">
+  		        <form class="form cf">
+            			<section class="weather">
+            				<h2>How do you like your weather?</h2>
+            				<input type="radio" name="radio1" id="steaming" value="steaming"><label class="steaming-label five col" for="steaming">Steaming</label>
+            				<input type="radio" name="radio1" id="chilly" value="chilly" checked><label class="chilly-label five col" for="chilly">Chilly</label>
+            				<input type="radio" name="radio1" id="temp" value="temp"><label class="temp-label five col" for="temp">Temperate</label>
+                  </section>
 
-    <div class='row'>
-    <div class='col-sm-4'>
-      <img src='images/tick.png' class="center-block">
-        <h3>1. Join Sample Club</h3>
-        <p>Simply enter your email address and we’ll start sending you updates on sample sales in London.</p>
-    </div>
+            			<section class="location">
+            				<h2>Any ideas on location?</h2>
+            				<input type="radio" name="radio2" id="europe" value="europe" checked><label class="europe-label five col" for="europe">Europe</label>
+            				<input type="radio" name="radio2" id="australasia" value="australasia"><label class="australasia-label five col" for="australasia">Australasia</label>
+                    <input type="radio" name="radio2" id="asia" value="asia"><label class="asia-label five col" for="asia">Asia</label>
+                    <input type="radio" name="radio2" id="america" value="america"><label class="america-label five col" for="america">America</label>
+                    <input type="radio" name="radio2" id="africa" value="africa"><label class="africa-label five col" for="africa">Africa</label>
+                  </section>
 
-      <div class='col-sm-4'>
-        <img src='images/dress-clipart-cartoon-2.jpg' class="center-block">
-        <h3>2. Find out about sample sales before anyone else</h3>
-        <p>We’ll be busy finding you information before anyone else. </p>
-      </div>
+          		    <section class="type">
+            				<h2>Are you a country or a city lover?</h2>
+            				<input type="radio" name="radio3" id="country" value="country"><label class="country-label five col" for="country">Country</label>
+            				<input type="radio" name="radio3" id="city" value="city"><label class="city-label five col" for="city">City</label>
+            			</section>
 
-      <div class='col-sm-4'>
-        <img src='images/money.jpg' class="center-block">
-        <h3>3. You get to save money!</h3>
-        <p>We’ll email you the best sales for you to attend, so you can save money! </p>
-    </div>
-    </div>
-  </div>
+  			           <input class="submit" type="submit" value="Submit">
+  		         </form>
+  	          </div>
+            </section>
+          </div>
+        </div>
 
-
-  <div id="Current-sales" class='text-center'>
-  <div class="container">
-    <h2><br />For examples of current sales on in London, click below</h2>
-    <a href="file:///C:/Users/Josie/Dropbox/Coding/Sample-club/second-page.html" class="btn btn-lg btn-current">Current-sales</a>
-
-
-
-    <div id='social-buttons'>
-        <p> Follow us on social media! </p>
-    <button class="btn btn-lg btn-twitter">Twitter</button>
-    <button class="btn btn-lg btn-facebook">Facebook</button>
-    <button class="btn btn-lg btn-pinterest">Pinterest</button>
-    </div>
-  </div>
-</div>
-
-
-
-  </div>
-
-  <script src="https://code.jquery.com/jquery.js"></script>
-
-
+<script src="https://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="main.js"></script>
 </body>
-
 </html>

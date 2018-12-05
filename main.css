@@ -1,5 +1,5 @@
 
-.sale {
+.email {
   padding-top: 90px;
   min-height: 700px;
   margin-bottom: 0;
@@ -8,7 +8,7 @@
   background-attachment: fixed;
 }
 
-.sale h1 {
+.email h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 70px;
   color: black;
@@ -16,22 +16,15 @@
   text-align: center;
 }
 
-
-#Current-sales {
-  background-color: rgba(217, 217, 217, 0.9);
-  color: black;
-  padding-bottom: 40px;
-}
-
-.sale .form-group {
+.email .form-group {
   line-height: 4em;
   text-align: center;
 }
 
-.sale label {
+.email label {
   color: black;
 }
-.sale img {
+.email img {
   margin-top: 50px;
 }
 h2 {
@@ -81,4 +74,108 @@ h2 {
   background-color: #b62f26;
   border-color: #b62f26;
   color: white;
+}
+
+title2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+  color: black;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+/* CONTAINERS */
+
+.container {max-width: 100%; width: 100%; margin: 0 auto;}
+.five { width: 15%; max-width: 15%;}
+
+
+/* COLUMNS */
+
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col:first-of-type { margin-left: 10%; }
+
+/* CLEARFIX */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/* FORM */
+
+section {
+  margin-bottom:20em;
+}
+
+.form .weather input, .form .location input, .form .type input{
+	display: none;
+}
+
+.form label{
+	position: relative;
+	color: #fff;
+	background-color: #aaa;
+	font-size: 26px;
+	text-align: center;
+	height: 150px;
+	line-height: 150px;
+	display: block;
+	cursor: pointer;
+	border: 3px solid transparent;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form .weather input:checked + label, .form .location input:checked + label, .form .type input:checked + label{
+	border: 3px solid #333;
+	background-color: #2fcc71;
+}
+
+.form .weather input:checked + label:after, form .location input:checked + label:after, .form .type input:checked + label:after{
+	content: "\2713";
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100%;
+	border: 2px solid #333;
+	background-color: #2fcc71;
+	z-index: 999;
+	position: absolute;
+	top: 10px;
+	right: -10px;
+}
+
+.submit{
+	padding: 15px 60px;
+	display: inline-block;
+	border: none;
+	margin: 20px 0;
+	background-color: #2fcc71;
+	color: #fff;
+	border: 2px solid #333;
+	font-size: 18px;
+	-webkit-transition: transform 0.3s ease-in-out;
+	-o-transition: transform 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out;
+}
+
+.submit:hover{
+	cursor: pointer;
+	transform: rotateX(360deg);
 }
