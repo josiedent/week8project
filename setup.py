@@ -21,8 +21,9 @@ def process_form():
         category = request.form['radio3']
         destinations = find_destinations(temp, location, category)
         if destinations:
-            for dest in destinations:
-                return dest.name
+            for place in destinations:
+                place = place
+                return render_template('process.html', place =place)
         else:
             return "No destinations found"
 
@@ -39,8 +40,8 @@ class Destination(object):
         #if temp > 20:
             #return "hot"
 
-places = [Destination("Berlin", "Steaming", "Europe", "City"),
-          Destination("London", "Chilly", "Europe", "City")]
+places = [Destination("Berlin", "steaming", "europe", "city"),
+          Destination("London", "chilly", "europe", "city")]
 
 def is_it_a_match(place, temp, location, category):
     return place.temp == temp
@@ -48,7 +49,7 @@ def is_it_a_match(place, temp, location, category):
     return place.category == category
 
 def find_destinations(temp, location, category):
-    destinations = [place.name for place in places if is_it_a_match(place, temp, location, category)]
+    destinations = [place.place for place in places if is_it_a_match(place, temp, location, category)]
     return destinations
 
 

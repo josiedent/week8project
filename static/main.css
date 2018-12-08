@@ -16,6 +16,14 @@
   text-align: center;
 }
 
+.email h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+  color: black;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
 .email .form-group {
   line-height: 4em;
   text-align: center;
