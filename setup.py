@@ -40,8 +40,10 @@ class Destination(object):
         #if temp > 20:
             #return "hot"
 
-places = [Destination("Berlin", "steaming", "europe", "city"),
-          Destination("London", "chilly", "europe", "city")]
+places = [Destination("Athens", "steaming", "europe", "city"),
+          Destination("London", "chilly", "europe", "city"),
+          Destination("Berlin", "temperate", "europe", "city")]
+
 
 def is_it_a_match(place, temp, location, category):
     return place.temp == temp

@@ -8,6 +8,15 @@
   background-attachment: fixed;
 }
 
+.skyscanner {
+  padding-top: 90px;
+  min-height: 700px;
+  margin-bottom: 0;
+  background-image: url('images/italy.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .email h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 70px;
