@@ -25,7 +25,15 @@
   text-align: center;
 }
 
-.email h2 {
+.skyscanner h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 70px;
+  color: black;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.skyscanner h2 {
   font-family: 'Roboto Slab', serif;
   font-size: 50px;
   color: black;
