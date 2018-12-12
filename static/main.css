@@ -22,6 +22,15 @@ button {
   background-attachment: fixed;
 }
 
+.france {
+  padding-top: 90px;
+  min-height: 700px;
+  margin-bottom: 0;
+  background-image: url('images/france.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .search {
     width: 50%;
     margin-left: auto;
@@ -38,6 +47,15 @@ button {
 }
 
 .email h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 70px;
+  color: black;
+  margin-top: 20%;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.france h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 70px;
   color: black;

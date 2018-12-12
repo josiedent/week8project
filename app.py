@@ -25,7 +25,7 @@ def process_form():
                 place = place
                 return render_template('process.html', place =place)
         else:
-            return "No destinations found"
+            return render_template('page3.html')
 
 class Destination(object):
 
