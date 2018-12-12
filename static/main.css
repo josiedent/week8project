@@ -8,6 +8,11 @@
   background-attachment: fixed;
 }
 
+button {
+  margin-left: auto;
+  margin-right:auto;
+}
+
 .skyscanner {
   padding-top: 90px;
   min-height: 700px;
@@ -15,6 +20,21 @@
   background-image: url('images/italy.jpg');
   background-size: cover;
   background-attachment: fixed;
+}
+
+.search {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    background-color: white;
+}
+
+.calculate {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  margin-bottom: 3em;
 }
 
 .email h1 {
@@ -37,8 +57,15 @@
   font-family: 'Roboto Slab', serif;
   font-size: 50px;
   color: black;
-  margin-bottom: 1em;
+  margin-bottom: 0.2em;
   text-align: center;
+}
+
+.skyscanner p {
+  font-family: 'Roboto Slab', serif;
+  font-size:20px;
+  color: white;
+  text-align:center;
 }
 
 .email .form-group {
